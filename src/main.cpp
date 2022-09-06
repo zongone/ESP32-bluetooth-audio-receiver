@@ -19,7 +19,7 @@ void setup() {
   };
 
   a2dp_sink.set_i2s_config(i2s_config);
-  a2dp_sink.start("MollyMusic", true);
+  a2dp_sink.start("MollyMusic", false);
   
 }
 

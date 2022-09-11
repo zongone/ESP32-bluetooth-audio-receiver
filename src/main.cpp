@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include "BluetoothA2DPSink.h"
+#include "BluetoothA2DPSink32.h"
 
-BluetoothA2DPSink a2dp_sink;
+BluetoothA2DPSink32 a2dp_sink;
 
 void setup() {
   Serial.begin(115200);
